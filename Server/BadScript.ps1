@@ -1,1 +1,1 @@
-Write-Host "Hello, World! This is a bad script"
+Write-Host "Hello, World! This is a bad script1"

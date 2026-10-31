@@ -183,9 +183,9 @@ if ($Setup) {
     }
 }
 
-###############################################
+################################################
 ###--- Create / Remove Scheduled Task (explicit request only)
-###############################################
+################################################
 if ($Install) {
     if (-not $AdapterName -or -not $IntervalHours) {
         Write-Log '-Install requires -AdapterName and -IntervalHours.' 'ERROR'

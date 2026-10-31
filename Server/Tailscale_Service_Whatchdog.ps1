@@ -1,8 +1,10 @@
 #Requires -Version 5.1
 <#.SYNOPSIS
     Monitors the Tailscale service and restarts it when it goes offline.
+    
 <#.DESCRIPTION
     This script monitors the Tailscale service and restarts it if it is not running.
+
 <#.EXAMPLE
     .\Tailscale_Service_Whatchdog.ps1
     .\Tailscale_Service_Whatchdog.ps1 -Setup

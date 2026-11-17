@@ -1,1 +1,0 @@
-Write-Host "Hello, World! This is a bad script22"
